@@ -12,4 +12,5 @@ paragraphElement.appendChild(
 );
 paragraphElement.appendChild(linkElement);
 paragraphElement.appendChild(document.createTextNode(" of languages."));
+//the id is 'content'
 document.getElementById("content").appendChild(paragraphElement);
